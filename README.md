@@ -16,10 +16,10 @@ square(5);
 
 Example:
 ```
-const foo = square;
+const squareFunc = square;
 
 // prints 36
-foo(6);
+squareFunc(6);
 ```
 ## Passing Functions as Parameters
 * We can pass functions as parameters to other functions.
