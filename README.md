@@ -9,7 +9,9 @@ Example:
 ```
 const square = function(x) {
   return x * x;
-}// prints 25
+}
+
+// prints 25
 square(5);
 ```
 * We can also pass them around another variables.
