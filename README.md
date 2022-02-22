@@ -29,9 +29,11 @@ Example:
 function formalGreeting() {
   console.log("How are you?");
 }
+
 function casualGreeting() {
   console.log("What's up?");
 }
+
 function greet(type, greetFormal, greetCasual) {
   if(type === 'formal') {
     greetFormal();
@@ -57,7 +59,9 @@ const arr1 = [1, 2, 3];
 const arr2 = [];
 for(let i = 0; i < arr1.length; i++) {
   arr2.push(arr1[i] * 2);
-}// prints [ 2, 4, 6 ]
+}
+
+// prints [ 2, 4, 6 ]
 console.log(arr2);
 ```
 ### With Higher-order function map
@@ -65,12 +69,16 @@ console.log(arr2);
 const arr1 = [1, 2, 3];
 const arr2 = arr1.map(function(item) {
   return item * 2;
-});console.log(arr2);
+});
+
+console.log(arr2);
 ```
 * We can make this even shorter using the arrow function syntax:
 ```
 const arr1 = [1, 2, 3];
 const arr2 = arr1.map(item => item * 2);
+
+
 console.log(arr2);
 ```
 ## Array.prototype.filter
